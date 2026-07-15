@@ -16,4 +16,7 @@ exclude = [
   "pesde.toml",
   "default.project.json",
   "test.project.json",
+  "selene_definitions.yml",
+  "selene.toml",
+  "scripts",
 ]

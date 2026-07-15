@@ -10,3 +10,7 @@ luau_packages/
 lune_packages/
 build/
 /pesde.lock
+/scripts
+/selene.toml
+/selene_definitions.yml
+
