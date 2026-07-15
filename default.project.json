@@ -1,12 +1,6 @@
 {
-  "name": "LogTest",
+  "name": "log",
   "tree": {
-    "$className": "DataModel",
-
-    "ReplicatedStorage": {
-      "Log": {
-        "$path": "src"
-      }
-    }
+    "$path": "src"
   }
 }
