@@ -7,7 +7,7 @@ A lightweight logging utility for Roblox.
 
 Add this to your `wally.toml`:
 
-```toml
+toml
 [dependencies]
 Log = "uxnknwn/log@0.1.0"
 ````

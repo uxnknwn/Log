@@ -8,4 +8,12 @@ realm = "shared"
 registry = "https://github.com/UpliftGames/wally-index"
 repository = "https://github.com/uxnknwn/Log"
 
-include = ["src", "LICENSE", "README.md", "wally.toml"]
+exclude = [
+  ".pesde",
+  "luau_packages",
+  "lune_packages",
+  "pesde.lock",
+  "pesde.toml",
+  "default.project.json",
+  "test.project.json",
+]
