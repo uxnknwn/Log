@@ -7,9 +7,9 @@ A lightweight logging utility for Roblox.
 
 Add this to your `wally.toml`:
 
-toml
+## toml
 [dependencies]
-Log = "uxnknwn/log@0.1.0"
+log = "uxnknwn/log@0.1.0"
 ````
 
 Then run:
@@ -23,13 +23,13 @@ wally install
 ```luau
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
-local Log = require(ReplicatedStorage.Packages.Log)
+local log = require(path.to.log)
 
-Log.SetDebugEnabled(true)
+log.SetDebugEnabled(true)
 
-Log.Debug("Loading player data")
-Log.Info("Player data loaded")
-Log.Warn("Failed to load player data")
+log.Debug("Loading player data")
+log.Info("Player data loaded")
+log.Warn("Failed to load player data")
 ```
 
 Example output:
@@ -43,20 +43,20 @@ Example output:
 Debug logs are disabled by default:
 
 ```luau
-Log.SetDebugEnabled(false)
+log.SetDebugEnabled(false)
 ```
 
 All log functions support multiple values:
 
 ```luau
-Log.Info("Player joined:", player.Name, player.UserId)
+log.Info("Player joined:", player.Name, player.UserId)
 ```
 
 ## API
 
 ```luau
-Log.SetDebugEnabled(enabled: boolean)
-Log.Debug(...any)
-Log.Info(...any)
-Log.Warn(...any)
+log.SetDebugEnabled(enabled: boolean)
+log.Debug(...any)
+log.Info(...any)
+log.Warn(...any)
 ```
