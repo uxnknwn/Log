@@ -1,0 +1,11 @@
+[package]
+name = "uxnknwn/log"
+description = "A lightweight logging utility for Roblox"
+version = "0.1.0"
+license = "MIT"
+authors = ["Dale Harris IV"]
+realm = "shared"
+registry = "https://github.com/UpliftGames/wally-index"
+repository = "https://github.com/uxnknwn/Log"
+
+include = ["src", "LICENSE", "README.md", "wally.toml"]
